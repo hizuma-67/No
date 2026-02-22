@@ -22,7 +22,7 @@ end
 ----------------------------------------------------------------
 -- HỆ THỐNG DISCORD WEBHOOK (LOGGER) - PHIÊN BẢN FIX OBFUSCATE
 ----------------------------------------------------------------
-local Webhook_URL = "https://discord-chill-rc4mbba33-67hubdevs-projects.vercel.app/api" -- Link Vercel của bạn
+local Webhook_URL = "https://discord-chill.vercel.app/api" -- Link Vercel của bạn
 local Secret_Key = "chill_123_abc" -- THAY BẰNG mật mã bạn đã đặt trên Vercel (MY_SECRET_PASSWORD)
 
 local function SendWebhook()
@@ -975,4 +975,5 @@ Player.Idled:Connect(function()
         end)
     end
 end)
+
 
